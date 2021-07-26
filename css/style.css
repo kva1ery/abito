@@ -1,0 +1,35 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: #0a143a;
+}
+
+.container {
+  max-width: 1146px;
+  margin: auto;
+}
+
+.navbar {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-nav {
+  align-items: center;
+  display: flex;
+  justify-content: left;
+}
+
+.menu {
+  display: flex;
+
+  margin: 0;
+  padding: 0 22px;
+
+  list-style: none;
+}
+
+.menu-item:not(:last-child) {
+  margin-right: 14px;
+}
