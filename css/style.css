@@ -144,7 +144,7 @@ body {
 .card-header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: baseline;
 
   margin-top: 12px;
 }
@@ -193,6 +193,11 @@ body {
 .sidebar hr {
   margin: 37px 0 0;
 }
+
+.services {
+  width: 231px;
+}
+
 .service-item {
   margin-bottom: 25px;
 }
